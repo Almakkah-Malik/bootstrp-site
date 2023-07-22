@@ -1,0 +1,298 @@
+
+   *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+.section{
+    padding-top: 60px;
+    padding-bottom: 70px;
+
+}
+
+h2{
+    text-align: center;
+    margin-bottom: 40px;
+
+}
+
+.section h2::after{
+  background: #e74c3c;
+  content: "";
+  display: block;
+  width: 100px;
+  height: 3px;
+  margin: 20px auto;
+ }
+
+#header{
+    color: #ffff;
+    background: #e74c3c;
+}
+
+.logo{
+    float: left;
+    font-size: 1.5rem;
+
+}
+
+.menu{
+    float: right;
+    list-style: none;
+}
+ .menu li{
+    display: inline-block;
+} 
+.menu li a{
+    color: #ffff;
+    text-decoration: none;
+     margin-left: 1rem;
+   margin-top: 0.5rem;
+ 
+   
+} 
+
+.menu li a:hover{
+    color: #141313
+ }
+
+ .banner{
+     height: 60vh;
+     background: url('../images/background.jpg') ;
+     background-repeat: no-repeat;
+     background-size: cover;
+    background-position: center;
+ }
+
+ .banner-title{
+     background: rgba(255,255,255,0.8);
+     display: inline-block;
+     padding: 10px;
+     margin-top: 2rem;
+     line-height: 27px;
+     letter-spacing: 2px;
+ }
+
+    .title{
+        font-size: 2.5rem;
+        font-family:Georgia, 'Times New Roman', Times, serif ;
+    
+    }
+
+ .banner-title p.lead{
+     color: #ffff;
+     background: #e74c3c;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ }
+
+ .btn{
+     font-size: 17px;
+     border-radius: 18px;
+     padding: 10px 18px;
+    background: #e74c3c;
+    color: #ffff;
+ }
+
+ .btn:hover{
+     color: rgb(14, 1, 1);
+
+ }
+
+ .service-box{
+     text-align: center;
+ }
+
+ .service-box i{
+     color: #e74c3c;
+     font-size: 70px;
+     margin-bottom: 15px;
+ }
+
+
+ .testimonials{
+     color: #fff;
+     background: linear-gradient(rgba(76, 115, 134, 0.46), rgba(77 97 109 / 32%)) ,  url(../images/black\ mbl.jpg);
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: cover;   
+
+ }
+
+ .testimonials img{
+     border-radius: 50%;
+
+ }
+
+ .news-post img{
+     margin-bottom: 10px;
+     width: 100%;
+ }
+
+ .news-post h3 a{
+      font-size: 1.5rem;
+      color: #e74c3c;
+      text-decoration: none;
+}
+
+.post-date{
+    font-size: 13px;
+    margin-top: 10px;
+    margin-bottom: 8px;
+}
+.post-date::before{
+    content: "\f073";
+    font-family: FontAwesome;
+    padding-right: 5px;
+
+}
+.readmore{
+    color: #e74c3c;
+    text-decoration: none;
+
+}
+
+/* .readmore::after{
+    content: "\f101";
+    font-family: FontAwesome;
+    padding-right: 5px;
+} */
+
+.footer{
+    color: #fff;
+    background: #34495e;
+}
+
+
+
+.footer-head h3{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.latest-news{
+    list-style: none;
+   margin: 0;
+   padding: 0;
+}
+
+.latest-news li{
+    margin-bottom: 3px;
+}
+
+.latest-news a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-head h3::after{
+    content: "";
+    display: block;
+    background: #fff;
+    width: 50px;
+    height: 2px;
+    margin: 5px 0;
+}
+
+.footer-head a::before{
+    content: "\f101";
+    font-family: FontAwesome;
+    padding-right: 5px;
+   
+
+}
+
+.footer-bottom{
+  background: #2c3e50;
+}
+
+.copy-right{
+    color: #fff;
+    margin-top: 1rem;
+}
+
+.social-icon{
+    float: right;
+    margin-top: 1rem;
+}
+.social-icon li{
+    list-style: none;
+    display: inline-block;
+    padding-left: 8px;
+    font-size: 20px;
+
+}
+
+.social-icon a{
+    color: #fff;
+    text-decoration: none;
+}
+
+@media (max-width: 992px) {
+    img{
+        margin-top: 2rem;
+    }
+
+    
+}
+
+
+@media (max-width: 802px){
+    
+
+    .logo{
+      margin-left: 11rem;
+
+    }
+
+    .menu{
+        margin-right: 3rem;
+    } 
+
+    .section{
+        padding-top: 30px;
+        padding-bottom: 0;
+    }
+
+    .banner-title{
+        padding-top: 0;
+    }
+
+
+    .service-box i{
+        margin-top: 2rem;
+
+    }
+    
+    
+    .testimonials{
+        text-align: center;
+    }
+
+    .testimonials img{
+        margin-top: 0;
+    }
+    
+    .author-company{
+        margin-bottom: 3rem;
+
+    }
+
+    img{
+        margin-top: 3rem;
+    }
+
+ .footer-head{
+     margin-bottom: 30px;
+ }
+ .copy-right{
+     text-align: center;
+ }
+
+  .fa-twitter{
+     margin-right: 14rem;
+ } 
+
+
+
+}
